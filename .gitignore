@@ -1,0 +1,10 @@
+src/
+examples/
+benchmark/
+__test__/
+
+*.rs
+*.toml
+*.lock
+
+node_modules/
