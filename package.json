@@ -1,0 +1,17 @@
+{
+  "name": "nwepjs",
+  "version": "1.0.0",
+  "homepage": "https://github.com/usenwep/nwepjs#readme",
+  "bugs": {
+    "url": "https://github.com/usenwep/nwepjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usenwep/nwepjs.git"
+  },
+  "license": "ISC",
+  "author": "trifledmatter",
+  "type": "commonjs",
+  "main": "quiche-napi/index.js",
+  "types": "quiche-napi/index.d.ts"
+}
