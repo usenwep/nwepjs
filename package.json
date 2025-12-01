@@ -12,6 +12,6 @@
   "license": "ISC",
   "author": "trifledmatter",
   "type": "commonjs",
-  "main": "quiche-napi/index.js",
-  "types": "quiche-napi/index.d.ts"
+  "main": "index.js",
+  "types": "index.d.ts"
 }
