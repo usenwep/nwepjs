@@ -8,3 +8,5 @@ __test__/
 Cargo.lock
 
 node_modules/
+.yarn/
+*.bak
