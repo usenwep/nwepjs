@@ -1,0 +1,28 @@
+
+[package]
+authors = ["trifledmatter <hey@trifledmatter.com>"]
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+name = "nwep_node"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+quiche = { workspace = true, features = ["ffi"] }
+napi = "3.0.0"
+napi-derive = "3.0.0"
+ring = { workspace = true }
+
+[build-dependencies]
+napi-build = "2"
+
+[profile.release]
+lto = true
+strip = "symbols"
+
+[features]
+default = []
+qlog = [] # TODO: address this, this is a simple placeholder for now to make the build pass

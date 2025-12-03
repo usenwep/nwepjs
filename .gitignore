@@ -1,12 +1,6 @@
-src/
-examples/
-benchmark/
-__test__/
-
-*.rs
-*.toml
-Cargo.lock
-
 node_modules/
 .yarn/
 *.bak
+*.node
+target/
+package-lock.json
